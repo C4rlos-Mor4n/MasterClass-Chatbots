@@ -5,6 +5,7 @@ import provider from "./provider";
 
 const PORT = process.env.PORT ?? 3008;
 
+// Inicializa el bot
 const main = async () => {
   const { httpServer } = await createBot({
     flow: templates,
